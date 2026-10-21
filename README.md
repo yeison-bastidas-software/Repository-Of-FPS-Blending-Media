@@ -2,6 +2,21 @@
 
 Web application that doubles a video's frame rate through frame interpolation (blending).
 
+## Table of Contents
+- [Description](#description)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Limitations](#limitations)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Project Structure](#project-structure)
+- [Why This Implementation Works](#why-this-implementation-works)
+- [Troubleshooting](#troubleshooting)
+- [Quick Testing](#quick-testing)
+- [License](#license)
+
 ## Description
 
 FPS Blending Media is a tool that **doubles a video's frame rate** by taking 50% of the preceding frame and 50% of the following frame to create an intermediate frame, producing a visually smoother video.
